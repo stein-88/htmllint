@@ -4,7 +4,8 @@
   "main": "gulpfile.js",
   "license": "MIT",
   "scripts": {
-    "func": "gulp"
+    "htmlchecker": "gulp htmlchecker",
+    "htmldef": "gulp"
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",

@@ -12,6 +12,9 @@ const htmllintReporter = (filepath, issues) => {
     }
 }
 
-gulp.task('default', () => {
-    return gulp.src('./*.html').pipe(htmllint({}, htmllintReporter))
-})
+const htmlchecker = () => {
+    return gulp.src('./htmls/*.html').pipe(htmllint({}, htmllintReporter))
+}
+
+exports.htmlchecker = htmlchecker
+exports.default = htmlchecker
