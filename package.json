@@ -1,0 +1,16 @@
+{
+  "name": "htmlhelper",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "scripts": {
+    "func": "gulp",
+    "teste": "echo estou testanto"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "fancy-log": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-htmllint": "^0.0.19"
+  }
+}
