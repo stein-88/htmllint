@@ -13,5 +13,5 @@ const htmllintReporter = (filepath, issues) => {
 }
 
 gulp.task('default', () => {
-    return gulp.src('./index.html').pipe(htmllint({}, htmllintReporter))
+    return gulp.src('./*.html').pipe(htmllint({}, htmllintReporter))
 })
