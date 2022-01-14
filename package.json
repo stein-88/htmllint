@@ -4,8 +4,7 @@
   "main": "gulpfile.js",
   "license": "MIT",
   "scripts": {
-    "func": "gulp",
-    "teste": "echo estou testanto"
+    "func": "gulp"
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",
