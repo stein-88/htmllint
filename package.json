@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "htmlchecker": "gulp htmlchecker",
-    "htmldef": "gulp"
+    "default": "gulp"
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",
